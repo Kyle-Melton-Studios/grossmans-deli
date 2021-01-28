@@ -115,7 +115,8 @@
 												<hr class="white-hr">
 												<p><span class="icon"><i class="fas fa-map-marker-alt"></i></span> &nbsp; 2005 NJ-35, Oakhurst, NJ 07755</p>
 												<p><span class="icon"><i class="fa fa-phone"></i></span> &nbsp; (732) 531-4709</p>
-												<p><strong>Hours:</strong> <br>Mon-Tues 7:30am-3pm<br> Wed-Fri 7:30am-7pm<br> Sat 9am-4pm<br> Sun Closed</p>
+												<p><strong>Hours:</strong><?= $Wcms->block('subside') ?> <br>Mon-Tues 7:30am-3pm<br> Wed-Fri 7:30am-7pm<br> Sat 9am-4pm<br> Sun Closed</p>
+				
 												<span>
 									<a href="https://www.facebook.com/grossmansdeli/"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a> &nbsp;
 									<a href="https://www.instagram.com/grossmansdeli/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a> &nbsp;
