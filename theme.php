@@ -62,6 +62,7 @@
 						</ul>
 				</div>
 		</nav>
+		<?php 
 		if($pageName == "home") {
 			<div class="container centered-text">
 				<img class="deli-logo" src="img/deli.png" width="300px">
@@ -89,6 +90,7 @@
 } else {
 
 }
+?>
 
 		<section class="container mt-5 mb-5">
 			<div class="row">
