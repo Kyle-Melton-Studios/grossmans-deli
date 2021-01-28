@@ -103,10 +103,77 @@
 			</div>
 		</section>
 
-		<footer class="mt-4 footer">
-			<div class="container-fluid py-3 text-right">
-				<?= $Wcms->footer() ?>
-			</div>
+		<footer class="footer">
+				<div class="container pt-2 pb-5">
+						<div class="row">
+								<div class="col-lg-4 pt-5">
+										<div class="footer-inner">
+												<p class="footer-title fancy-text"><strong>Grossman's Deli & Grill</strong></p>
+												<hr class="white-hr">
+												<p><span class="icon"><i class="fas fa-map-marker-alt"></i></span> &nbsp; 2005 NJ-35, Oakhurst, NJ 07755</p>
+												<p><span class="icon"><i class="fa fa-phone"></i></span> &nbsp; (732) 531-4709</p>
+												<p><strong>Hours:</strong> <br>Mon-Tues 7:30am-3pm<br> Wed-Fri 7:30am-7pm<br> Sat 9am-4pm<br> Sun Closed</p>
+												<span>
+									<a href="https://www.facebook.com/grossmansdeli/"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a> &nbsp;
+									<a href="https://www.instagram.com/grossmansdeli/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a> &nbsp;
+									<a href="https://www.yelp.com/biz/grossmans-deli-oakhurst-2"><i class="fab fa-yelp fa-2x"></i></a>
+									</span>
+										</div>
+								</div>
+								<div class="col-lg-4 pt-5">
+										<div class="footer-inner">
+												<p class="footer-title fancy-text"><strong>Join Our Newsletter</strong></p>
+												<hr class="white-hr">
+												<!-- Begin MailChimp Signup Form -->
+												<div id="mc_embed_signup">
+														<form action="https://grossmansdeli.us18.list-manage.com/subscribe/post?u=671ab84284e3a222afe57c7da&amp;id=bc4fed00a3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+																<div id="mc_embed_signup_scroll">
+
+																		<div class="mc-field-group">
+																				<label class="pb-2" for=""><strong>Sign Up!</strong></label>
+																				<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter your Email address here">
+																		</div>
+																		<div id="mce-responses" class="clear">
+																				<div class="response" id="mce-error-response" style="display:none"></div>
+																				<div class="response" id="mce-success-response" style="display:none"></div>
+																		</div>
+																		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+																		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_671ab84284e3a222afe57c7da_bc4fed00a3" tabindex="-1" value=""></div>
+																		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-success mt-2"></div>
+																</div>
+														</form>
+												</div>
+
+												<!--End mc_embed_signup-->
+												<br>
+
+												<p class="pt-4"><strong>Now Accepting:</strong></p>
+												<span>
+									<i class="far fa-money-bill-alt fa-2x"></i> &nbsp;
+									<i class="fab fa-cc-visa fa-2x"></i> &nbsp;
+									<i class="fab fa-cc-mastercard fa-2x"></i> &nbsp;
+									<i class="fab fa-cc-amex fa-2x"></i> &nbsp;
+								  <i class="fab fa-cc-apple-pay fa-2x"></i> &nbsp;
+									<i class="fab fa-android fa-2x"></i>
+									</span>
+										</div>
+								</div>
+								<div class="col-lg-4 pt-5">
+										<div class="footer-inner">
+												<p class="footer-title fancy-text"><strong>Latest News</strong></p>
+												<iframe defer src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgrossmansdeli%2F&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="400"
+												  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+										</div>
+								</div>
+						</div>
+				</div>
+				<div class="container-fluid pt-3 mt-5 copy">
+						<div class="row">
+								<div class="col-12 text-center">
+										<p>&copy; 2018 Grossman's Deli & Grill - All rights reserved.</p>
+								</div>
+						</div>
+				</div>
 		</footer>
 		<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		<!-- jQuery/Popper.js/Bootstrap JS -->
