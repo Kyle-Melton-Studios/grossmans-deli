@@ -62,7 +62,7 @@
 						</ul>
 				</div>
 		</nav>
-		<?php if (wCMS::$currentPage == 'home'): ?>
+		<?php if (wCMS::$currentPage == '/'): ?>
 		<div class="container centered-text">
 				<img class="deli-logo" src="img/deli.png" width="300px">
 		</div>
