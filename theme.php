@@ -62,8 +62,8 @@
 						</ul>
 				</div>
 		</nav>
-		<?php if (wCMS::$currentPage == '/'): ?>
-		<div class="container centered-text">
+		if($pageName == "home") {
+			<div class="container centered-text">
 				<img class="deli-logo" src="img/deli.png" width="300px">
 		</div>
 		<div class="slides">
@@ -86,7 +86,10 @@
 						</div>
 				</div>
 		</div>
-		<?php endif ?>
+} else {
+
+}
+
 		<section class="container mt-5 mb-5">
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
