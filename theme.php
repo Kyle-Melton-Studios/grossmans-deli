@@ -63,35 +63,6 @@
 				</div>
 		</nav>
 
-		<?php if(location.pathname == '/') {
-			<div class="container centered-text">
-				<img class="deli-logo" src="img/deli.png" width="300px">
-		</div>
-		<div class="slides">
-				<div id="main_slider" class="carousel slide main_header" data-ride="carousel">
-
-						<!-- The slideshow -->
-						<div class="carousel-inner">
-								<div class="carousel-item active">
-										<img class="d-block img-fluid" src="/img/deli-lunch.jpg" alt="">
-								</div>
-								<div class="carousel-item">
-										<img class="d-block img-fluid" src="/img/deli-counter.jpg" alt="">
-								</div>
-								<div class="carousel-item">
-										<img src="/img/fresh-bread.jpg" alt="">
-								</div>
-								<div class="carousel-item">
-										<img src="/img/jersey-devil-sandwich-grossmans-deli.jpg" alt="">
-								</div>
-						</div>
-				</div>
-		</div>
-} else {
-
-}
-<?php endif ?>
-
 		<section class="container mt-5 mb-5">
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
