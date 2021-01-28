@@ -63,7 +63,7 @@
 				</div>
 		</nav>
 
-		if(location.pathname == '/') {
+		<?php if(location.pathname == '/') {
 			<div class="container centered-text">
 				<img class="deli-logo" src="img/deli.png" width="300px">
 		</div>
@@ -90,7 +90,7 @@
 } else {
 
 }
-
+<?php endif ?>
 
 		<section class="container mt-5 mb-5">
 			<div class="row">
