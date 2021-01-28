@@ -65,6 +65,7 @@
 		<div class="container centered-text">
 				<img class="deli-logo" src="img/deli.png" width="300px">
 		</div>
+		<?php if (wCMS::$_currentPage == 'Home'): ?>
 		<div class="slides">
 				<div id="main_slider" class="carousel slide main_header" data-ride="carousel">
 
@@ -85,7 +86,7 @@
 						</div>
 				</div>
 		</div>
-
+		<?php endif ?>
 		<section class="container mt-5 mb-5">
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
