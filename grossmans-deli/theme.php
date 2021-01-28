@@ -34,7 +34,6 @@
 		<!-- Paver Stylesheet -------------------->
 		<link rel="stylesheet" rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/paver/1.3.4/css/paver.min.css" />
 		<!-- Custom Stylesheet -------------------->
-		<link rel="stylesheet" rel="preload" as="style" href="styles/custom.css" />
 		<link rel="stylesheet" rel="preload" as="style" href="<?= $Wcms->asset('styles/custom.css') ?>">
 
 		<?= $Wcms->css() ?>
