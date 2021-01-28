@@ -62,6 +62,9 @@
 						</ul>
 				</div>
 		</nav>
+		<div class="container centered-text">
+				<img class="deli-logo" src="img/deli.png" width="300px">
+		</div>
 		<div class="slides">
 				<div id="main_slider" class="carousel slide main_header" data-ride="carousel">
 
