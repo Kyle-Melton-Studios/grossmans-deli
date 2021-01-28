@@ -63,7 +63,7 @@
 				</div>
 		</nav>
 		<?php 
-		if($pageName == "home") {
+		if(location.pathname == '/') {
 			<div class="container centered-text">
 				<img class="deli-logo" src="img/deli.png" width="300px">
 		</div>
