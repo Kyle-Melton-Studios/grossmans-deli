@@ -62,7 +62,7 @@
 						</ul>
 				</div>
 		</nav>
-		<section class="container-fluid">
+		<section>
 			<?= $Wcms->page('content') ?>
 		</section>
 
