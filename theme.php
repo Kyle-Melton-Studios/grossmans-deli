@@ -62,10 +62,7 @@
 						</ul>
 				</div>
 		</nav>
-		<header>
-		<?= $Wcms->page('hero') ?>
-		</header>
-		<section class="container mt-5 mb-5">
+		<section>
 			<?= $Wcms->page('content') ?>
 		</section>
 
