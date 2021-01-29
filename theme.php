@@ -69,17 +69,6 @@
 			<?= $Wcms->page('content') ?>
 		</section>
 
-		<div class="h-05"></div>
-
-		<section class="container-fluid mt-5 mb-5 flex-grow">
-			<div class="row customBackground">
-				<div class="col-lg-12 my-auto text-center padding40 resetTextRotation">
-					<?= $Wcms->block('subside') ?>
-
-				</div>
-			</div>
-		</section>
-
 		<footer class="footer">
 				<div class="container pt-2 pb-5">
 						<div class="row">
