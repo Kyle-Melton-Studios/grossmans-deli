@@ -41,9 +41,9 @@
 	</head>
 
 	<body class="animated fadeIn" style="background-color: #ecf0f1;">
-		<?= $Wcms->settings() ?>
+		<div class="card mt-5"><?= $Wcms->settings() ?>
 		<?= $Wcms->alerts() ?>
-
+		</div>
 		<div class="second-nav text-right fancy-text d-none d-md-block">
 				<p class="find-us"><strong><i class="fas fa-map-marker-alt"></i></strong> <a href="https://www.google.com/maps/dir/''/grossmans+deli/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c22f5cdadd5e97:0x2bca21c2b6f0f014?sa=X&ved=0ahUKEwjjkZOK7cHbAhWJo1kKHUf9DnoQ9RcIgAEwDA">2005 NJ-35, Oakhurst, NJ 07755</a>						&nbsp; &#124; &nbsp; <strong><i class="fa fa-phone"></i></strong> <a href="tel:732-531-4790">(732) 531-4709</a></p>
 		</div>
