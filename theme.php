@@ -41,7 +41,7 @@
 	</head>
 
 	<body class="animated fadeIn" style="background-color: #ecf0f1;">
-		<div class="card mt-5"><?= $Wcms->settings() ?>
+		<div style="position:absolute; z-index:999999;"><?= $Wcms->settings() ?>
 		<?= $Wcms->alerts() ?>
 		</div>
 		<div class="second-nav text-right fancy-text d-none d-md-block">
