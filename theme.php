@@ -47,7 +47,7 @@
 		<div class="second-nav text-right fancy-text d-none d-md-block">
 				<p class="find-us"><strong><i class="fas fa-map-marker-alt"></i></strong> <a href="https://www.google.com/maps/dir/''/grossmans+deli/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c22f5cdadd5e97:0x2bca21c2b6f0f014?sa=X&ved=0ahUKEwjjkZOK7cHbAhWJo1kKHUf9DnoQ9RcIgAEwDA">2005 NJ-35, Oakhurst, NJ 07755</a>						&nbsp; &#124; &nbsp; <strong><i class="fa fa-phone"></i></strong> <a href="tel:732-531-4790">(732) 531-4709</a></p>
 		</div>
-		<nav class="navbar navbar-expand-lg navbar-dark" id="home">
+		<nav class="navbar navbar-expand-lg navbar-dark" id="home" style="background-color:rgba(0,0,0,0) !important">
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fa fa-bars" aria-hidden="true"></i></span>
   </button>
@@ -62,6 +62,9 @@
 						</ul>
 				</div>
 		</nav>
+		<div class="about-head">
+				<h1 class="three-d-contact"><?= $Wcms->page('title') ?></h1>
+		</div>
 		<section>
 			<?= $Wcms->page('content') ?>
 		</section>
